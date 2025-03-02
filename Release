@@ -1,9 +1,8 @@
-Origin: iWare
-Label: iWare
+Origin: Reposi3
+Label: Reposi3
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
-Description: iWare - Small cydia repo for Favna's warez
-Icon: file://CydiaIcon.png
+Description: Reposi3 - a cydia repo template
