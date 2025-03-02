@@ -1,0 +1,19 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://redirect.favware.tech/twitter</url>
+			<iconclass>fab fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>Join my Discord server</name>
+			<url>https://join.favware.tech</url>
+			<iconclass>fab fa-discord</iconclass>
+		</link>
+		<link>
+			<name>View my projects</name>
+			<url>https://www.favware.tech</url>
+			<iconclass>fas fa-code</iconclass>
+		</link>
+	</footerlinks>
+</repo>
