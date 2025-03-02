@@ -1,57 +1,90 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Az én Cydia Repóm</title>
-	<style>
-		body {
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-			background-color: #f8f8f8;
-			text-align: center;
-			padding: 20px;
-		}
-
-		.container {
-			background: white;
-			max-width: 400px;
-			margin: auto;
-			padding: 20px;
-			border-radius: 10px;
-			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-		}
-
-		h1 {
-			color: #007aff;
-		}
-
-		p {
-			color: #555;
-		}
-
-		.add-button {
-			display: inline-block;
-			padding: 10px 20px;
-			background: #007aff;
-			color: white;
-			text-decoration: none;
-			border-radius: 5px;
-			font-size: 16px;
-		}
-
-		.add-button:hover {
-			background: #005ecb;
-		}
-	</style>
+	<title>iWare</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="depictions/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
-<body>
-	<div class="container">
-		<h1>Az én Cydia Repóm</h1>
-		<p>Üdvözöllek a személyes Cydia repómon! Itt találhatók a legjobb tweakjeim és alkalmazásaim.</p>
-		<a class="add-button" href="cydia://url/https://sajat-repod.com/">Add hozzá a Cydiához</a>
-	</div>
+<body class="pinstripe">
+	<panel>
+		<fieldset>
+			<div class="container text-center mt-4">
+				<h2>iWare Cydia Repo</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corporis culpa esse quidem delectus
+					velit.</p>
+			</div>
+			<a href="cydia://url/https://dszilagyi012.github.io/cydia">
+				<div>
+					<div>
+						<label>Add to Cydia</label>
+					</div>
+				</div>
+			</a>
+		</fieldset>
+
+		<fieldset>
+			<a href="#">
+				<div>
+					<div>
+						<label>Tweak 1</label>
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div>
+					<div>
+						<label>Tweak 2</label>
+					</div>
+				</div>
+			</a>
+
+			<div>
+				<p>Böngészd a legjobb tweakjeimet és csomagjaimat!</p>
+				<hr />
+				<p>Az alábbi listában találod őket:</p>
+			</div>
+			<a href="#">
+				<div>
+					<div>
+						<label>Tweak 3</label>
+					</div>
+				</div>
+			</a>
+			<a href="#">
+				<div>
+					<div>
+						<label>Tweak 4</label>
+					</div>
+				</div>
+			</a>
+		</fieldset>
+
+		<label>Fontos információ</label>
+		<block>
+			<p>Győződj meg róla, hogy a legújabb verziókat telepíted!</p>
+			<hr />
+			<p>Kérdés esetén fordulj hozzám bizalommal.</p>
+		</block>
+
+		<fieldset style="background-color: #fcc">
+			<div>
+				<p>
+					<strong>
+						<center>Attenion!</center>
+					</strong>
+				</p>
+			</div>
+			<div>
+				<p>Use the tweaks below only at your own risk. I am not responsible for any damages</p>
+			</div>
+		</fieldset>
+	</panel>
 </body>
 
 </html>
