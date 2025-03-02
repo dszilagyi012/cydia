@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://favna.github.io/cydia/sitemap.xml
+Sitemap: https://dszilagyi012.github.io/cydia/sitemap.xml
 User-agent: *
 Disallow:
